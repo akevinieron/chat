@@ -1,0 +1,33 @@
+#contenedor {
+  margin: 0 auto;
+  width: 1200px;
+}
+#usuarios-conectados-div {
+  border: 2px solid rgba(90,90,15,0.6);
+  border-radius: 15px;
+  display: inline-block;
+  height: 360px;
+  margin: 0 1%;
+  vertical-align: top;
+  width: 16%;
+}
+#mensajes-div {
+  display: inline-block;
+  width: 81%;
+}
+#mensajes-div #pizarra-mensajes-div {
+  border: 2px solid rgba(60,100,30,0.7);
+  border-radius: 15px;
+  height: 300px;
+}
+#mensajes-div #nuevo-mensaje-div {
+  margin: 15px 0;
+}
+#mensajes-div #nuevo-mensaje-div #nuevo-mensaje-inp {
+  padding: 1%;
+  width: 85%;
+}
+#mensajes-div #nuevo-mensaje-div #enviar-mensaje-btn {
+  padding: 1%;
+  width: 12%;
+}
